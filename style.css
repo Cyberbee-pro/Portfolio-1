@@ -1,14 +1,4 @@
-.box1{
-    display: flex; 
-    left: 0; /* Align to left edge */
-    top: 100%;
-    width: 100px;
-    height: 500px;
-   /* background-color: red;*/
-    background: white;
-    
- 
-}
+
 body {
   margin: 0;
   height: 100vh;
@@ -31,4 +21,13 @@ body {
 
 .right {
   right: 0;
+}
+
+.roll {
+    transform: translatex(10%);
+    width: 83%;
+    height: 100%;
+    background-color: #25ec0f;
+    border-radius: 2%;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);    
 }
