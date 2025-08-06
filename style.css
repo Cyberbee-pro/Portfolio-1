@@ -27,7 +27,7 @@ body {
     transform: translatex(10%);
     width: 83%;
     height: 100%;
-    background-color: #25ec0f;
+    background-color:transparent;
     border-radius: 2%;
     box-shadow: 0px 4px 10px rgba(0,0,0,0.1);    
 }
@@ -42,4 +42,25 @@ body {
     font-weight: 700;
     font-size: 3rem;
     color: #FFA500; /* Optional: matches image style */
+}
+
+.element1{
+    position: relative;
+    top : 25%;
+    left:5%;
+    height: 10px;
+    width: 300px;
+    background: linear-gradient(120deg, #a8edea 0%, #fed6e3 100%);    
+}
+
+.outlined-text {
+    position: relative;
+    top : 32%;
+    left: 5%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    
+    color: transparent;
+    -webkit-text-stroke: 5px #f4d03f; /* yellow outline */
+    text-stroke: 2px #f4d03f;
 }
