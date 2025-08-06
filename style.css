@@ -35,18 +35,18 @@ body {
 
 .heading {
     position: absolute;
-    top: 20%;
+    top: 15%;
     left: 120px; /* Adjust as needed for horizontal offset */
     transform: translateY(-50%);
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    font-size: 3rem;
-    color: #FFA500; /* Optional: matches image style */
+    font-size: 4rem;
+    color:#c9a929; /* Optional: matches image style */
 }
 
 .element1{
     position: relative;
-    top : 25%;
+    top : 20%;
     left:5%;
     height: 10px;
     width: 300px;
@@ -54,13 +54,73 @@ body {
 }
 
 .outlined-text {
-    position: relative;
-    top : 32%;
-    left: 5%;
+  position: relative;
+  top : 25%;
+  left: 5%;
+   /* 
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
-    
+    font-size: 4rem;
     color: transparent;
-    -webkit-text-stroke: 5px #f4d03f; /* yellow outline */
-    text-stroke: 2px #f4d03f;
+    -webkit-text-stroke: 2px #f4d03f;
+    text-shadow: 2px #f4d03f; */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 5rem;
+    color: #f4d03f;
+    text-shadow: 3px 3px 0px #333;
+}
+
+.element2 {
+    position: relative;
+    top: 28%;
+    left: 5%;
+    height: 30px;
+    width: 450px;
+    padding-top: 8px;
+    padding-left: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: linear-gradient(120deg, #a8edea 0%, #fed6e3 100%);
+}
+
+.element3 {
+    position: relative;
+    top: 32%;
+    left: 5%;
+    height: 30px;
+    width: 380px;
+    padding-top: 8px;
+    padding-left: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: linear-gradient(120deg, #a8edea 0%, #fed6e3 100%);
+}
+
+.me{
+    position: relative;
+    top: 40%;
+    left: 5%;
+    height: 200px;
+    width: 450px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: .9999rem;
+}
+
+.frame{
+  top: 5%;
+  left: 57%;
+  transform: translatey(-70%);
+  width: 420px;
+  height: 420px;
+  border-radius: 50%;
+  position: relative;
+  background-image: url('cyb-pfp-sen.jpg');
+  background-repeat: no-repeat;
+  background-position: center
 }
