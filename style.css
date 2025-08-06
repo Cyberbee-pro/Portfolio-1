@@ -1,0 +1,11 @@
+.box1{
+    display: flex; 
+    left: 0; /* Align to left edge */
+    top: 50%;
+    width: 100px;
+    height: 500px;
+   /* background-color: red;*/
+    background: linear-gradient(120deg, #a8edea 0%, #fed6e3 100%);
+    
+ 
+}
