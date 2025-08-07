@@ -30,11 +30,17 @@ body {
 /* === Main Container === */
 .roll {
   display: flex;
-  width: 85%;
+  width: 82%;
   height: 100%;
   margin-left: 7%;
-  background-color: transparent;
+  /*background-color: transparent;*/
   border-radius: 2%;
+  background: rgba(255, 255, 255, 0.1); /* Transparent white */
+  backdrop-filter: blur(15px);          /* Blur the background */
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Optional border */
+  border-radius: 12px;                  /* Rounded corners */
+  padding: 1rem 2rem;                   /* Inner spacing */
+  color: #fff;                          
 }
 
 /* === Left & Right Content Areas === */
@@ -72,7 +78,7 @@ body {
 .outlined-text {
   font-weight: 700;
   font-size: 5rem;
-  color: #f4d03f;
+  color: #f4b400;
   text-shadow: 3px 3px 0px #333;
 }
 
@@ -99,7 +105,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 0.9999rem;
-  color: white;
+  color: #f0f0f0;
 }
 
 /* === Right Panel Frame === */
