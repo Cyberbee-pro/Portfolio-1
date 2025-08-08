@@ -1,0 +1,199 @@
+/* === Base Styling === */
+body {
+  margin: 0;
+  height: 100vh;
+/* background: linear-gradient(45deg, #ff9a9e 0%, #fecfef 25%, #fecfef 50%, #a8edea 75%, #fed6e3 100%);
+  /*background: white;*/
+  background: linear-gradient(120deg, #0f766e 0%, #155e75 50%, #1e40af 100%);
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+/* === Side Gradient Bars === */
+.bar {
+  width: 100px;
+  height: 500px;
+  background: linear-gradient(120deg, #a8edea 0%, #fed6e3 100%);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border-bottom-right-radius: 50%;
+  border-top-right-radius: 50%;
+}
+.bar-left {
+  left: 0;
+}
+.bar-right {
+  right: 0;
+  width: 95px;
+  transform: rotate(180deg);
+  top: 15%;
+}
+
+/* === Main Container === */
+.roll {
+  display: flex;
+  width: 82%;
+  height: 100%;
+  margin-left: 7%;
+  /*background-color: transparent;*/
+  border-radius: 2%;
+  background: rgba(255, 255, 255, 0.1); /* Transparent white */
+  backdrop-filter: blur(15px);          /* Blur the background */
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Optional border */
+  border-radius: 12px;                  /* Rounded corners */
+  padding: 1rem 2rem;                   /* Inner spacing */
+  color: #fff;                          
+}
+
+/* === Left & Right Content Areas === */
+.roll-left {
+  flex: 2.6;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1.5rem;
+  /*background-color: lightblue;*/
+}
+
+.roll-right {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*background-color: lightgreen;*/
+}
+
+/* === Elements in Left Panel === */
+.heading {
+  font-weight: 700;
+  font-size: 4rem;
+  color: #fed6e3;
+}
+
+.element1 {
+  height: 10px;
+  width: 300px;
+  background: linear-gradient(120deg, #a8edea 0%, #fed6e3 100%);
+}
+
+.outlined-text {
+  font-weight: 700;
+  font-size: 5rem;
+  color: #f4b400;
+  text-shadow: 3px 3px 0px #333;
+}
+
+.element2, .element3 {
+  height: 30px;
+  padding-top: 8px;
+  padding-left: 10px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background: linear-gradient(120deg, #a8edea 0%, #fed6e3 100%);
+  color: #000;  
+}
+
+.element2 {
+  width: 450px;
+}
+
+.element3 {
+  width: 380px;
+}
+
+.me {
+  width: 450px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 0.9999rem;
+  color: #f0f0f0;
+}
+
+/* === Right Panel Frame === */
+.frame {
+  width: 420px;
+  height: 420px;
+  border-radius: 50%;
+  background-image: url('cyb-pfp-sen.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.element4 {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  border: 4px solid transparent;
+  border-right-color: #f4b400;
+  border-top-color: #f4b400;
+  transform: rotate(45deg);
+  z-index: 1;
+  /*
+  left: 10%;
+  width: 460px;
+  height: 460px;
+  border-bottom-right-radius: 50%;
+  border-top-right-radius: 50%;
+  background-color: rgba(250, 3, 3, 0.2);
+  box-shadow: inset 0px 0px 20px rgba(0,0,0,0.5);*/
+}
+
+.icon-buttons {
+  position: absolute;
+  right: 30%;
+  top : 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 35px;
+  z-index: 2;
+  transform: translateY(-10%);
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, background-color 0.3s;
+  cursor: pointer;
+}
+
+.icon:hover {
+  transform: scale(1.2);
+  background-color: #f4b400;
+}
+
+.icon img {
+  width: 25px;
+  height: 25px;
+  filter: invert(1);
+}
+
+.static {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #f4b400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.static img {
+  width: 25px;
+  height: 25px;
+  filter: invert(1);
+}
