@@ -19,12 +19,17 @@ body {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+  border-bottom-right-radius: 50%;
+  border-top-right-radius: 50%;
 }
 .bar-left {
   left: 0;
 }
 .bar-right {
   right: 0;
+  width: 95px;
+  transform: rotate(180deg);
+  top: 15%;
 }
 
 /* === Main Container === */
