@@ -160,6 +160,10 @@ ul {
   width: 70%;
 }
 
+.content pre{
+  color: #f0f0f0;
+}
+
 .two{
   display: flex;
   align-items: flex-start;
@@ -215,4 +219,44 @@ ul {
 
 .B{
   width: 40%;
+}
+
+.sec{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.badge {
+  display: grid;
+  top: 10%;
+  grid-template-columns: repeat(3, 1fr); /* 2 equal columns */
+  gap: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+.badge-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 130px;
+  background-color: black;
+  border-radius: 50%;
+  padding: 1rem 2rem;
+  color: #fff;
+  text-align: center;
+}
+
+.major {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #f4b400;
+}
+
+.minor {
+  font-size: 1rem;
+  color: #f0f0f0;
 }
