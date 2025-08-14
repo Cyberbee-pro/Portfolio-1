@@ -1,9 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>NUll</title>
+    <title>NULL</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            display: flex;
+            align-items: center;
+            background-color: black;
+            padding: 20px;
+        }
+        .image-holder {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+        }
+        .image-holder img {
+            
+            background-color: #f4b400;
+            padding: 10px;
+            max-height: 80px; /* limits height */
+            border-radius: 50%; /* makes it circular */
+            width: auto; /* keeps aspect ratio */
+        }
+        .all {
+            text-align: left;
+            margin-left: 20px;
+        }
+    </style>
 </head>
 <body>
-    <h1>404 Not Found</h1>
-    <p>The page you are looking for does not exist.</p>
+    <div class="container">
+        <div class="image-holder">
+            <img src="support.png" alt="Placeholder Image">
+        </div>
+        <div class="all">
+            <h1>404 Not Found</h1>
+            <p>The page you are looking for does not exist.</p>
+        </div>
+    </div>
+</body>
 </html>

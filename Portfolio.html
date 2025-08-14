@@ -46,13 +46,13 @@
 
             <!-- === Added portfolio embed section === -->
             <div class="portfolio-buttons">
-                <button onclick="showEmbed('sample1')">Sample 1</button>
-                <button onclick="showEmbed('sample2')">Sample 2</button>
-                <button onclick="showEmbed('sample3')">Sample 3</button>
+                <button onclick="showEmbed('project1')">Project 1</button>
+                <button onclick="showEmbed('project2')">Project 2</button>
+                <button onclick="showEmbed('project3')">Project 3</button>
             </div>
 
             <div id="portfolio-embed-container">
-                <iframe id="portfolio-iframe" src="https://example.com" frameborder="0"></iframe>
+                <iframe id="portfolio-iframe" src="https://www.example.com" frameborder="0"></iframe>
             </div>
         </div> <!-- Viewing Area end -->
     </div> <!-- Container end -->
@@ -60,12 +60,12 @@
     <script>
         function showEmbed(sample) {
             const iframe = document.getElementById("portfolio-iframe");
-            if (sample === "sample1") {
-                iframe.src = "https://www.wikipedia.org";
-            } else if (sample === "sample2") {
+            if (sample === "project1") {
+                iframe.src = "noidea.html"; // Default or first sample
+            } else if (sample === "project2") {
                 iframe.src = "https://www.example.com";
-            } else if (sample === "sample3") {
-                iframe.src = "https://www.openai.com";
+            } else if (sample === "project3") {
+                iframe.src = "https://www.example.com";
             }
         }
     </script>
